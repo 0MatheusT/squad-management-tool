@@ -1,0 +1,33 @@
+.navBar {
+  width: 100%;
+  height: 4rem;
+  margin: 0;
+  padding: 0 3rem;
+
+  background: linear-gradient(to right, var(--pink), var(--purple));
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--textWhite);
+}
+
+.logoAndTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoAndTitle > p {
+  margin-left: 1rem;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.logo {
+  height: 3rem;
+}

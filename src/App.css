@@ -1,0 +1,22 @@
+:root {
+  --pink: #c00e4f;
+  --purple: #8a206f;
+  --white: #fff;
+  --background: #f7f3f7;
+  --footer: #e9e3e9;
+
+  --selectedField: #f7eef7;
+  --textSelected: #b23e7d;
+  --simpleText: #939393;
+  --textWhite: #e3eaea;
+  --textPurple: #654095;
+
+  background-color: var(--background);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
