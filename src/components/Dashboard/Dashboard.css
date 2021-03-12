@@ -1,0 +1,33 @@
+.dashboard {
+  height: auto;
+  width: auto;
+  margin: 2rem;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.myTeams {
+  width: 100%;
+
+  padding: 1rem;
+  margin: 1rem;
+
+  -webkit-box-shadow: -1px 5px 29px 8px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -1px 5px 29px 8px rgba(0, 0, 0, 0.26);
+  box-shadow: -1px 5px 29px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 1rem;
+}
+
+.statistics {
+  width: 100%;
+
+  margin: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
