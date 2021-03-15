@@ -9,7 +9,6 @@ import UserNav from './UserNav';
 const NavBar = () => (
   <div className="navBar">
     <div className="logoAndTitle">
-      <div></div>
       <a href="/">
         <img className="logo" src={logo} alt="logo Venturus"></img>
       </a>

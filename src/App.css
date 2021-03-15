@@ -1,6 +1,6 @@
 :root {
   --pink: #c00e4f;
-  --purple: #8a206f;
+  --purple: #88206e;
   --white: #fff;
   --background: #f7f3f7;
   --footer: #e9e3e9;
@@ -9,7 +9,7 @@
   --textSelected: #b23e7d;
   --simpleText: #939393;
   --textWhite: #e3eaea;
-  --textPurple: #654095;
+  --textPurple: rgb(101, 64, 149);
 
   background-color: var(--background);
 }
