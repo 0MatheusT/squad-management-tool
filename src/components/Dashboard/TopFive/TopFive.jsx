@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import './TopFive.css'
+import TopFiveList from './TopFiveList/TopFiveList';
 
 
 
@@ -10,6 +11,10 @@ const TopFive = () => (
       <p> Top 5</p>
     </div>
     <hr></hr>
+
+    <div className="topFiveComponentLists">
+      <TopFiveList/>
+    </div>
 
   </div>
 );

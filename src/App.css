@@ -1,13 +1,13 @@
 :root {
   --pink: #c00e4f;
-  --purple: #88206e;
+  --purple: rgb(136, 32, 110);
   --white: #fff;
   --background: #f7f3f7;
   --footer: #e9e3e9;
 
   --selectedField: #f7eef7;
   --textSelected: #b23e7d;
-  --simpleText: #939393;
+  --simpleText: #5c5b5c;
   --textWhite: #e3eaea;
   --textPurple: rgb(101, 64, 149);
 

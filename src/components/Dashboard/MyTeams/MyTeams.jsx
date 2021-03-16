@@ -33,8 +33,8 @@ const MyTeams = () => (
         </button>
     </div>
     <hr></hr>
-    <div style={{ height: 400, width: '100%' }}>
-      <DataGrid rows={rows} columns={columns} pageSize={5} />
+    <div style={{ height: 700, width: '100%'}}>
+      <DataGrid rows={rows} columns={columns} pageSize={10} />
     </div>
   
   </div>

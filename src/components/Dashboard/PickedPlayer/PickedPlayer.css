@@ -67,7 +67,11 @@
 }
 
 .playerImgAndPercent p {
-  width: 25%;
+  width: 20%;
+}
+
+.playerImgAndPercent hr {
+  border: 1px solid var(--textWhite);
 }
 
 .percentPlayer {
@@ -82,18 +86,17 @@
   border-style: dashed;
   border-radius: 50%;
 
-  -webkit-box-shadow: -1px 5px 29px 8px rgba(0, 0, 0, 0.26);
-  -moz-box-shadow: -1px 5px 29px 8px rgba(0, 0, 0, 0.26);
-  box-shadow: -1px 5px 29px 8px rgba(var(--purple), 0.898);
+  -webkit-box-shadow: -1px 5px 29px 8px rgba(136, 32, 110, 0.898);
+  -moz-box-shadow: -1px 5px 29px 8px rgba(136, 32, 110, 0.898);
+  box-shadow: -1px 5px 29px 8px rgba(136, 32, 110, 0.898);
 }
 
 .imgPlayerLessPicked {
   height: 10rem;
-  border: 3px var(--textWhite) solid;
-  border-style: dashed;
+  border: 3px red solid;
   border-radius: 50%;
 
-  -webkit-box-shadow: -1px 5px 29px 8px rgba(0, 0, 0, 0.26);
-  -moz-box-shadow: -1px 5px 29px 8px rgba(0, 0, 0, 0.26);
-  box-shadow: -1px 5px 29px 8px rgba(var(--purple), 0.898);
+  -webkit-box-shadow: -1px 5px 29px 8px rgba(136, 32, 110, 0.898);
+  -moz-box-shadow: -1px 5px 29px 8px rgba(136, 32, 110, 0.898);
+  box-shadow: -1px 5px 29px 8px rgba(136, 32, 110, 0.898);
 }

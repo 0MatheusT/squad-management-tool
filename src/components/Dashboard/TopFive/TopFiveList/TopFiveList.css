@@ -1,0 +1,61 @@
+.topFiveList {
+  padding: 0;
+
+  display: flex;
+  justify-content: row;
+  align-items: space-between;
+}
+
+.listTeamAvg {
+  width: 50%;
+
+  margin: 0.5rem;
+  padding: 0;
+
+  color: var(--simpleText);
+}
+
+.listTeamAvg > p {
+  color: var(--simpleText);
+  font-size: 1rem;
+  font-weight: 600;
+
+  margin-bottom: 0.5rem;
+}
+
+.highestTeamAge {
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  border: 3px #e9e3e9 solid;
+  border-radius: 0.75rem;
+}
+
+.lowestTeamAge {
+  padding: 0.5rem;
+
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  border: 3px #e9e3e9 solid;
+  border-radius: 0.75rem;
+}
+
+.selectedHighestAvg {
+  border: 3px var(--textSelected) solid;
+  border-radius: 0.75rem;
+}
+
+.selectedLowestAvg {
+  border: 3px var(--textSelected) solid;
+  border-radius: 0.75rem;
+}
