@@ -18,6 +18,23 @@ const rows = [
   {id: 4, name: "Liverpool", description:"Liverpool Squad"},
   {id: 5, name: "Bayern Munich", description:"Bayern Munich Squad"},
   {id: 6, name: "Lazio", description:"Lazio Squad"},
+  {id: 7, name: "Barcelona", description:"Barcelona Squad"},
+  {id: 8, name: "Real Madri", description:"Real Madri Squad"},
+  {id: 9, name: "Milan", description:"Milan Squad"},
+  {id: 10, name: "Liverpool", description:"Liverpool Squad"},
+  {id: 11, name: "Bayern Munich", description:"Bayern Munich Squad"},
+  {id: 12, name: "Lazio", description:"Lazio Squad"},
+  {id: 13, name: "Barcelona", description:"Barcelona Squad"},
+  {id: 14, name: "Real Madri", description:"Real Madri Squad"},
+  {id: 15, name: "Milan", description:"Milan Squad"},
+  {id: 16, name: "Liverpool", description:"Liverpool Squad"},
+  {id: 17, name: "Bayern Munich", description:"Bayern Munich Squad"},
+  {id: 18, name: "Lazio", description:"Lazio Squad"},
+  {id: 19, name: "Barcelona", description:"Barcelona Squad"},
+  {id: 20, name: "Real Madri", description:"Real Madri Squad"},
+  {id: 21, name: "Milan", description:"Milan Squad"},
+  {id: 22, name: "Liverpool", description:"Liverpool Squad"},
+
  
 ];
 
