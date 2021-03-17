@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.teamInformationComponent {
+  margin: 2rem 10rem;
+
+  width: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamInformationComponent > p {
+  color: var(--TitleText);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.teamInformations {
+  width: 100%;
+}
+
+.teamNameAndWebsite,
+.teamDescriptionAndType {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.teamName .teamWebsite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
