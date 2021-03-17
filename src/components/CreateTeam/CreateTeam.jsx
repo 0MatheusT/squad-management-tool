@@ -3,6 +3,13 @@ import React from 'react';
 import './CreateTeam.css'
 
 
+const playerInformations = [
+  {id: 1, name: "Paulinho Gogó", age: 55, "nacionality":"Brazil"},
+  {id: 2, name: "Cristiano Reinaldo", age: 38, "nacionality":"Brazil"},
+  {id: 3, name: "Fabiano Sales", age: 24, "nacionality":"Brazil"},
+
+];
+
 const CreateTeam = () => (
 
   
@@ -14,7 +21,8 @@ const CreateTeam = () => (
       </div>
       <hr></hr>
       <form>
-        <div className="teamInformationComponent">
+
+        <div className="teamInformation">
           <p>Team Information</p>
           <div className="teamInformations">
 
@@ -87,9 +95,69 @@ const CreateTeam = () => (
           </div>
         </div>
 
-      Configure squad
-      
-      <input type='submit' value="Save" />
+        <div className="configureSquad">
+          <p>Configure Squad</p>
+          <div className="squadInformations">
+            <div className="formationAndFieldSquad">
+              <div className="formationSquad">
+                <span>
+                  Formation:  
+                </span> 
+                <select value=''>
+                  <option value="3-2-2-3">3 - 2 - 2 - 3</option>
+                  <option value="3-2-3-1">3 - 2 - 3 - 1</option>
+                  <option value="3-4-3">3 - 4 - 3</option>
+                  <option value="3-5-2">3 - 5 - 2</option>
+                  <option value="4-2-3-1">4 - 2 - 3 - 1</option>
+                  <option value="4-3-1-1">4 - 3 - 1 - 1</option>
+                  <option value="4-3-2">4 - 3 - 2</option>
+                  <option value="4-4-2">4 - 4 - 2</option>                    <option value="4-5-1">4 - 5 - 1</option>
+                  <option value="5-4-1">5 - 4 - 1</option>
+                </select>
+              </div>
+              <div className="fieldSquad">
+                
+              </div>
+              <button className="submitSquad" type='submit' value="Save"> Save </button> 
+            </div>
+            <div className="searchPlayerAndFilter">
+              <div className="searchPlayer">
+                    <p>
+                      Search a player
+                    </p>
+                    <input 
+                      className="searchPlayerInput"
+                      type="text" 
+                      name="PlayerName"
+                      placeholder="Put the name's player here"
+                      required="true" 
+                    />
+              </div>
+              <div className="listOfPlayers">
+                  {playerInformations.map(player => (
+                    <div className="informationPlayer">
+                      <div className="playersInformationData"> 
+                      <div>
+                          Name: <span className="colorInfoPlayer">{player.name}</span>
+                        </div>
+                        <div>
+                          Age: <span className="colorInfoPlayer">{player.age}</span>
+                        </div>
+                      </div>
+                      <div> 
+                      <br></br>
+                      <div>
+                          Nacionality: <span className="colorInfoPlayer">{player.nacionality}</span>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
       </form>
     </div>
   </main>
