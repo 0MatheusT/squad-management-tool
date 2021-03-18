@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { DataGrid } from '@material-ui/data-grid';
+import { Link } from 'react-router-dom';
+
 
 import './MyTeams.css'
 
@@ -43,11 +45,12 @@ const MyTeams = () => (
   <div className="myTeamsComponent">
     <div className="titleMyTeamsComponent">
       <p> My Teams</p>
-      <button 
-            onClick= "/" 
-            className="button">
-            +
+      <Link to ="/create-team">
+        <button 
+          className="button">
+              +
         </button>
+      </Link>
     </div>
     <hr></hr>
     <div style={{ height: 700, width: '100%'}}>

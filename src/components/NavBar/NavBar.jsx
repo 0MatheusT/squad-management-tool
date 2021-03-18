@@ -10,7 +10,7 @@ const NavBar = () => (
   <div className="navBar">
     <div className="logoAndTitle">
       <a href="/">
-        <img className="logo" src={logo} alt="logo Venturus"></img>
+        <img Link to={'/'} className="logo" src={logo} alt="logo Venturus"></img>
       </a>
       <p className="text"> Squad Management Tool</p>
     </div>
