@@ -116,7 +116,9 @@ const CreateTeam = () => (
                 </select>
               </div>
               <div className="fieldSquad">
-                
+                <div className="vlSquadField">
+                  <div className="circleSquadField"></div>
+                </div>
               </div>
               <button className="submitSquad" type='submit' value="Save"> Save </button> 
             </div>

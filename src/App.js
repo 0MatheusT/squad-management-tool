@@ -8,14 +8,12 @@ import NavBar from './components/NavBar/NavBar'
 function App() {
   return (
     <Router>
-      <div>
-        <NavBar /> 
-        <Switch>
-          <Route exact path='/' component={Dashboard} />
-          <Route path='/create-team' component={CreateTeam} />
-        </Switch>
-        <Footer />
-      </div>
+      <NavBar /> 
+      <Switch>
+        <Route exact path='/' component={Dashboard} />
+        <Route path='/create-team' component={CreateTeam} />
+      </Switch>
+      <Footer />
     </Router>
   );
 }

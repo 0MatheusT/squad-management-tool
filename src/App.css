@@ -21,3 +21,11 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+/* Responsivity */
+@media (max-width: 719px) {
+  body {
+    height: auto;
+    width: auto;
+  }
+}
